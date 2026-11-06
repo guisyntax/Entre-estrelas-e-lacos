@@ -77,7 +77,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    border-bottom: 2px solid var(--magenta);
+    box-shadow: 0 4px 20px rgba(224, 36, 94, 0.25);
 }
 
 .hero-titulo {
@@ -160,6 +161,14 @@ body {
 }
 
 @media (max-width: 800px) {
+
+    .header{
+        flex-direction: column;
+    }
+
+    .menu{
+        display: none;
+    }
 
     .sobre,
     .sobre:nth-child(odd) {
